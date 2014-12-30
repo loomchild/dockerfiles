@@ -1,0 +1,19 @@
+{
+    "driver":  "disk",
+    "params":  {"dir": "/tmp/pumpio/"},
+    "secret":  "my dog has fleas",
+    "noweb":  false,
+    "site":  "Awesome Sauce",
+    "owner":  "Awesome Inc.",
+    "ownerURL":  "http://example.com/",
+    "port":  31337,
+    "hostname":  "example.org",
+    "address":  "pumpio.localhost",
+    "nologger":  false,
+    "serverUser":  "pumpio",
+    "key":  "/etc/my/keyfile.key",
+    "cert":  "/etc/my/server.crt",
+    "uploaddir": "/var/local/pump.io/uploads",
+    "debugClient": false,
+    "firehose": "ofirehose.example"
+}
