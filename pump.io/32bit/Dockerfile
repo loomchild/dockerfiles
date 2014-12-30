@@ -9,7 +9,7 @@ RUN apt-get update \
 
 RUN ln -s /usr/bin/nodejs /usr/bin/node
 
-RUN npm install -g databank-mongodb databank-redis pump.io
+RUN npm install -g databank-mongodb databank-redis databank-memcached pump.io
 
 RUN groupadd -r pumpio && useradd -r -g pumpio pumpio
 

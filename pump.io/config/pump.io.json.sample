@@ -1,6 +1,5 @@
 {
-    "driver":  "disk",
-    "params":  {"dir": "/tmp/pumpio/"},
+    "driver":  "memory",
     "secret":  "my dog has fleas",
     "noweb":  false,
     "site":  "Awesome Sauce",
